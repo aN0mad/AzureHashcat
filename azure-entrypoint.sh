@@ -39,5 +39,9 @@ Get some additional wordlists here:
 * https://github.com/FlameOfIgnis/Pwdb-Public
 EOF
 
+homedir=$( getent passwd "$USER" | cut -d: -f6 )
+
+echo "Setup all done" > "$homedir/setup.txt"
+
 # Reboot (recommended by CUDA installers)
 reboot
