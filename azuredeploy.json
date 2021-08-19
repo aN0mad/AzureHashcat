@@ -189,7 +189,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/carlmon/Hashcat-Azure/master/azure-entrypoint.sh"
+            "https://raw.githubusercontent.com/theRealFr13nd/AzureHashcat/master/azure-entrypoint.sh"
           ],
           "commandToExecute": "./azure-entrypoint.sh"
         }
